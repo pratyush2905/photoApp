@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import Image1 from '../img/portfolio/1a.jpg';
-import Image2 from '../img/portfolio/2a.jpg';
-import Image3 from '../img/portfolio/3a.jpg';
-import Image4 from '../img/portfolio/4a.jpg';
+import Image1 from '../img/portfolio/1.png';
+import Image2 from '../img/portfolio/2.png';
+import Image3 from '../img/portfolio/3.png';
+import Image4 from '../img/portfolio/4.png';
 
 import { Link } from 'react-router-dom';
 
@@ -56,6 +56,10 @@ const Portfolio = () => {
             </div>
             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
               <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image1} alt="Picture" />
+            </div>
+            <div>
+              <br />
+              <br />
             </div>
           </div>
         </div>
